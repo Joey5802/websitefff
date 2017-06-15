@@ -1,3 +1,4 @@
 fetch("http://tristanwiley.com/joey5802/tenessee/get.php").then(data => data.text()).then(data => {
-    document.getElementById("howdoing").innerHTML = data.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    var text = data.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    document.getElementById("howdoing").innerHTML = text;
 });
