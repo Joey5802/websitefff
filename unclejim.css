@@ -22,7 +22,9 @@ tn {
 }
 
 button {
-    width: 50%
+    width: 50%;
+    margin-bottom: 60px;
+    height: 40px;
 }
 
 doggo {
