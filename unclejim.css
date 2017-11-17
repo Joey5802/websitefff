@@ -5,6 +5,9 @@ h1 {
 h2 {
     text-align: center;
     font-size: 12px;
+    margin: auto;
+    color: black;
+    
 }
 
 span.green {
